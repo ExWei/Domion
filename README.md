@@ -68,3 +68,27 @@ Usage:
 `var elem = document.createElement("marquee");
 elem.text("Text here");
 $("body").append(elem);`
+## .children() ##
+Returns children of selected element
+
+Usage:
+
+`$("body").children()`
+## .clone() ##
+Returns clone of selected element
+
+Usage:
+
+`$("body").clone()`
+## .empty() ##
+Empty selected element
+
+Usage:
+
+`$("body").empty()`
+## .attr() ##
+Returns attribute value of selected element
+
+Usage:
+
+`$("body").attr("onload")`
