@@ -92,3 +92,9 @@ Returns attribute value of selected element
 Usage:
 
 `$("body").attr("onload")`
+## .css() ##
+Returns css value of property of selected element
+
+Usage:
+
+`$("body").css("overflow")`
