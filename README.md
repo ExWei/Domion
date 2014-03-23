@@ -164,23 +164,37 @@ Usage:
      }
  })`
 
- ## .get() ##
- Creates Ajax request with GET method
+## .get() ##
+Creates Ajax request with GET method
 
- Usage:
+Usage:
 
- `$.get({
-      url: "/users.json",
-      data: {foo: 1, bar: 2}
-      function (request) {
-          var responseText = request.responseText;
-          console.log(responseText);
-      }
-  })`
+`$.get({
+     url: "/users.json",
+     data: {foo: 1, bar: 2}
+     function (request) {
+         var responseText = request.responseText;
+         console.log(responseText);
+     }
+})`
 
- ## .toParam() ##
+## .post() ##
+Creates Ajax request with POST method
+
+Usage:
+
+`$.post({
+     url: "/users.json",
+     data: {foo: 1, bar: 2}
+     function (request) {
+         var responseText = request.responseText;
+         console.log(responseText);
+     }
+})`
+
+## .toParam() ##
 Creates parameters string from object
 
- Usage:
+Usage:
 
 `$.toParam({"foo": "bar", "bar":"foo"})`
