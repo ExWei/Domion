@@ -126,3 +126,9 @@ Return first element from elements list (NodeList)
 Usage:
 
 `$("div").first()`
+## .size() ##
+Return count of elements in NodeList
+
+Usage:
+
+`$("div").size()`
