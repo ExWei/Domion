@@ -113,3 +113,10 @@ Toggle hide-show for element(s)
 Usage:
 
 `$("div").toggle()`
+
+## .last() ##
+Return last element from elements list (NodeList)
+
+Usage:
+
+`$("div").last()`
