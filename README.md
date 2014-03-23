@@ -120,3 +120,9 @@ Return last element from elements list (NodeList)
 Usage:
 
 `$("div").last()`
+## .first() ##
+Return first element from elements list (NodeList)
+
+Usage:
+
+`$("div").first()`
