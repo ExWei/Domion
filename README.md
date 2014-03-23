@@ -144,3 +144,9 @@ Removes class from element(s)
 Usage:
 
 `$("div").removeClass("intro")`
+## .hasClass() ##
+Return true if selected element contains specified class, false if not contains.
+
+Usage:
+
+`$("div").first().hasClass("intro")`
