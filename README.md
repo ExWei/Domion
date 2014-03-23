@@ -150,3 +150,16 @@ Return true if selected element contains specified class, false if not contains.
 Usage:
 
 `$("div").first().hasClass("intro")`
+## .ajax() ##
+Creates Ajax request
+
+Usage:
+
+`$.ajax({
+     method: "GET",
+     url: "/users.json",
+     function (request) {
+         var responseText = request.responseText;
+         console.log(responseText);
+     }
+ })`
