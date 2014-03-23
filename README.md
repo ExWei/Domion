@@ -98,3 +98,18 @@ Returns css value of property of selected element
 Usage:
 
 `$("body").css("overflow")`
+## .each() ##
+forEach for elements
+
+Usage:
+
+`$("div").each(function(elem) {
+    elem.text("This is a div");
+})`
+
+## .toggle() ##
+Toggle hide-show for element(s)
+
+Usage:
+
+`$("div").toggle()`
