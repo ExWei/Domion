@@ -164,6 +164,20 @@ Usage:
      }
  })`
 
+ ## .get() ##
+ Creates Ajax request with GET method
+
+ Usage:
+
+ `$.get({
+      url: "/users.json",
+      data: {foo: 1, bar: 2}
+      function (request) {
+          var responseText = request.responseText;
+          console.log(responseText);
+      }
+  })`
+
  ## .toParam() ##
 Creates parameters string from object
 
