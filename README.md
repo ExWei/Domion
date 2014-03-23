@@ -132,3 +132,9 @@ Return count of elements in NodeList
 Usage:
 
 `$("div").size()`
+## .removeClass() ##
+Removes class from element(s)
+
+Usage:
+
+`$("div").removeClass("intro")`
