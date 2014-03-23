@@ -18,32 +18,38 @@ Installation
 API
 ===
 
-## $(selector) ##
+## $() ##
 Return element(s) which matched by selector
 
 Usage:
 
 `$("div span h1")`
 ## .text() ##
-Changes text in element
+Changes text in element(s)
 
 Usage:
 
 `$("#nav").text("Text here")`
 ## .html() ##
-Changes html in element
+Changes html in element(s)
 
 Usage:
 
 `$("#nav").html("<h1>H</h1><h2>TML</h2>")`
+## .addClass() ##
+Adds class to element(s)
+
+Usage:
+
+`$("div").addClass("intro")`
 ## .hide() ##
-Hides element
+Hides element(s)
 
 Usage:
 
 `$(".footer").hide()`
 ## .show() ##
-Shows element
+Shows element(s)
 
 Usage:
 
@@ -81,7 +87,7 @@ Usage:
 
 `$("body").clone()`
 ## .empty() ##
-Empty selected element
+Empty selected element(s)
 
 Usage:
 
