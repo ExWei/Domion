@@ -163,3 +163,10 @@ Usage:
          console.log(responseText);
      }
  })`
+
+ ## .toParam() ##
+Creates parameters string from object
+
+ Usage:
+
+`$.toParam({"foo": "bar", "bar":"foo"})`
