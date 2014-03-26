@@ -198,3 +198,10 @@ Creates parameters string from object
 Usage:
 
 `$.toParam({"foo": "bar", "bar":"foo"})`
+
+## .title() ##
+Set title for document, if <title> element does not exists - will be created new.
+
+Usage:
+
+`$.title("New title")`
